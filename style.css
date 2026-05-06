@@ -4,14 +4,15 @@ body {
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  background-color: #276fc2;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #276fc2;
+    color: white;
+    display: flex;
+    border: 4px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
@@ -22,8 +23,8 @@ footer {
 }
 
 nav ul {
-  display: flex;
-  gap: 2rem;
+    display: flex;
+    gap: 2rem;
 }
 
 th {
