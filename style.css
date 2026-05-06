@@ -1,1 +1,6 @@
-
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #276fc2;
+  color: white;
+}
