@@ -7,6 +7,12 @@ header {
   flex-wrap: wrap;
 }
 
+footer {
+    background: #444;
+    color: #ccc;
+    text-align: center;
+    padding: 1rem;
+}
 .container {
   padding: 7rem, 2rem, 2rem, 2rem;
 }
@@ -21,3 +27,4 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+
