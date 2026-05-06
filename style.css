@@ -6,3 +6,8 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
