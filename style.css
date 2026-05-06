@@ -10,7 +10,7 @@ header {
     color: white;
     display: flex;
     border: 4px;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -42,8 +42,17 @@ td {
 
 table {
     border-collapse: collapse;
+}
+
+.table_section table {
     width: 100%;
     margin: 1rem 0;
+}
+
+#sq_table table td {
+    padding: 0.5rem;
+    width: 32px;
+    height: 32px; 
 }
 
 .container {
