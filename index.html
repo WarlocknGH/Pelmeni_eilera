@@ -8,19 +8,29 @@
         <title>Название</title>
     </head>
     <body>
-        <!-- Якорь в начале страницы (для навигации)-->
+        <!-- Телепорт в начало страницы (навигация) -->
         <div id="top"></div>
+        
+        <!-- Фиксированная шапка -->
+        <header>
+            <div>
+                <h1>Леонард Эйлер</h1>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#top">^ Наверх ^</a></li>
+                </ul>
+                <!-- Форма поиска по сайту -->
+                <form>
+                    <input type="search" name="q" placeholder="Search query" />
+                    <input type="submit" value="Go!" />
+                </form>
+            </nav>
+        </header>
 
-        <nav>
-            <ul>
-                <li><a href="#top">^ Наверх ^</a></li>
-            </ul>
-            <!-- Форма поиска по сайту -->
-            <form>
-                <input type="search" name="q" placeholder="Search query" />
-                <input type="submit" value="Go!" />
-            </form>
-        </nav>
+        <!-- Основная часть -->
+        <main>
 
         <text>text</text>
 
@@ -69,5 +79,10 @@
                     <li> </li>
                 </ul>
             </div>
+            
+        </main>
+
+        <footer>
+        </footer>
     </body>
 </html>
