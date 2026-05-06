@@ -7,6 +7,10 @@ header {
   flex-wrap: wrap;
 }
 
+.container {
+  padding: 7rem, 2rem, 2rem, 2rem;
+}
+
 nav ul {
   display: flex;
   gap: 2rem;
