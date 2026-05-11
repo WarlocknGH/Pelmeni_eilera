@@ -14,7 +14,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background: blue;
+    background-color: blue;
     color: white;
     display: flex;
     border: 4px;
