@@ -126,6 +126,11 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
     color: white;
 }
 
+.quote p {
+    text-align: right;
+    margin-right: 4rem;
+}
+
 @media (max-width: 768px) {        /* Адаптивный дизайн */
     header {
         flex-direction: column;
