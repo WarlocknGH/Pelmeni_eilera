@@ -42,6 +42,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {        /* Подсветка текста жёлтым при наведении */
+    color: #ffd966;
+    text-decoration: underline;
+}
+
 th {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -103,7 +108,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
 
 .i1 {
     background: black url(assets/images/Зеленая-доска.jpg);
-    color: white;  
+    color: white;
 }
 
 .i2 {
