@@ -70,6 +70,11 @@ table {
     text-align: center;
 }
 
+.beg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container {
     padding: 7rem 2rem 2rem 2rem;
 }
@@ -103,7 +108,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
     }
     
     .beg {
-        display: flex;
+        flex-direction: column;
     }
     
     nav ul {
