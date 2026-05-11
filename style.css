@@ -14,7 +14,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: linear-gradient(90deg, #16375c, #276fc2);
+    background: linear-gradient(90deg, #16375c, #276fc2);
     color: white;
     display: flex;
     border: 4px;
