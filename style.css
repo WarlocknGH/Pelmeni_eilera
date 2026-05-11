@@ -49,7 +49,7 @@ nav a:hover {        /* Подсветка текста жёлтым при на
 }
 
 section:hover {
-    transform: scale(1.01);
+    transform: scale(1.005);
 }
 
 th {
