@@ -73,10 +73,6 @@ table {
     padding: 7rem 2rem 2rem 2rem;
 }
 
-.beg {
-    display: flex;
-}
-
 section {        /* Белые окошки */
     background: white;
     border-radius: 10px;
@@ -104,7 +100,11 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
         text-align: center;
         gap: 0.5rem;
     }
-
+    
+    .beg {
+        display: flex;
+    }
+    
     nav ul {
         gap: 1rem;
         flex-wrap: wrap;
