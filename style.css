@@ -70,7 +70,7 @@ table {
 }
 
 .container {
-  padding: 7rem 2rem 2rem 2rem;
+    padding: 7rem 2rem 2rem 2rem;
 }
 
 section {
@@ -92,9 +92,13 @@ section {
         gap: 0.5rem;
     }
 
-  nav ul {
+    nav ul {
         gap: 1rem;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .container {
+        padding-top: 9rem;
     }
 }
