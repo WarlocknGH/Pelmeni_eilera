@@ -97,6 +97,21 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
     margin-bottom: 0.5rem;
 }
 
+.i1 {
+    background: black url(assets/images/Зеленая-доска.jpg);
+    color: white;  
+}
+
+.i2 {
+    background: black url(assets/images/Синие треугольнички.jpg);
+    color: white;
+}
+
+.i3 {
+    background: linear-gradient(90deg, #16375c, #276fc2);
+    color: white;
+}
+
 .i4 {
     background: black url(assets/images/Звёзды.jpg);
     color: white;
