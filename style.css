@@ -48,7 +48,7 @@ nav a:hover {        /* Подсветка текста жёлтым при на
     text-decoration: underline;
 }
 
-section:hover {
+section:hover, img:hover {
     transform: scale(1.005);
 }
 
