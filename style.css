@@ -73,6 +73,10 @@ table {
     padding: 7rem 2rem 2rem 2rem;
 }
 
+.beg {
+    display: flex;
+}
+
 section {        /* Белые окошки */
     background: white;
     border-radius: 10px;
