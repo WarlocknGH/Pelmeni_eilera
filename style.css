@@ -58,12 +58,12 @@ table {
     border-collapse: collapse;
 }
 
-.table_section table {
+.table_section table {        /* Таблица с фактами */
     width: 100%;
     margin: 1rem 0;
 }
 
-#sq_table table td {
+#sq_table table td {        /* Магический квадрат */
     padding: 0.5rem;
     width: 16px;
     height: 16px; 
@@ -73,11 +73,15 @@ table {
     padding: 7rem 2rem 2rem 2rem;
 }
 
-section {
+section {        /* Белые окошки */
     background: white;
     border-radius: 10px;
     padding: 1rem 2rem;
     margin: 1rem 0;
+}
+
+h2 {        /* Заголовки в блоках информации i1 i2 i3 i4 */
+    margin-bottom: 0.5rem;
 }
 
 .quote {
@@ -85,7 +89,7 @@ section {
     color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {        /* Адаптивный дизайн */
     header {
         flex-direction: column;
         text-align: center;
