@@ -54,6 +54,7 @@ nav a {
     color: white;
     text-decoration: none;
     transition: 0.2s;
+    font-size: 0.7rem;
 }
 
 nav a:hover {        /* Подсветка текста жёлтым при наведении */
@@ -134,7 +135,7 @@ table {
     flex-direction: column;
     justify-content: center;
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .container {
