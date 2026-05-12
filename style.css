@@ -155,12 +155,12 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
         gap: 0.5rem;
     }
     
-    .beg {
+    .blocks_to_row {
         flex-direction: column;
         align-items: center;
     }
 
-    .beg section {
+    .blocks_to_row section {
         width: 100%;
         flex-shrink: 1;
     }
