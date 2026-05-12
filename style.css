@@ -129,6 +129,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
 .i2 {
     background: black url(assets/images/Синие-треугольнички.jpg);
     color: white;
+    text-shadow: 0px 0px 2px black;
 }
 
 .i3 {
