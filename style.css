@@ -81,10 +81,6 @@ td {
     text-align: left;
 }
 
-#sigma {
-    width: 100%;
-}
-
 table {
     border-collapse: collapse;
 }
@@ -124,6 +120,10 @@ table {
     justify-content: center;
     margin: 0;
     font-size: 1.3rem;
+}
+
+#sigma {
+    width: 100%;
 }
 
 .container {
