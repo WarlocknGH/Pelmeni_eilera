@@ -146,6 +146,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
 .quote {        /* Цитата */
     background-color: #346399;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .quote p {
