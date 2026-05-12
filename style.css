@@ -118,7 +118,7 @@ section {        /* Белые окошки */
 }
 
 .yellow_line {          /* Жёлтая полоска слева */
-    margin: 2rem 0rem;
+    margin: 4rem 0rem 2rem;
     border-left: 6px solid #ffb347;
     padding-left: 2rem;
 }
