@@ -11,7 +11,7 @@ body {
 
 @font-face {
     font-family: 'preciosa';
-    src: url('fonts/Preciosa.ttf') format('truetype');
+    src: url('assets/fonts/Preciosa.ttf') format('truetype');
 }
 
 header {
