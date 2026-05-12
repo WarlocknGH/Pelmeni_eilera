@@ -19,7 +19,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 header {
-    font-family: 'preciosa', sans-serif;
+    font-family: 'preciosa', 'Rome', "Times New Roman", Times, sans-serif;
     z-index: 1000;
     position: fixed;
     top: 0;
