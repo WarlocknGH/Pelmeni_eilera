@@ -86,14 +86,14 @@ table {
     background: black url(assets/images/Магический-Квадрат.jpg);
 }
 
-.beg {
+.blocks_to_row {
     display: flex;
     gap: 2rem;
     align-items: stretch;
     flex-wrap: wrap;
 }
 
-.beg section {
+.blocks_to_row section {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
 }
 
 .i3 {
-    background: linear-gradient(90deg, #16375c, #276fc2);
+    background: linear-gradient(270deg, #471616, #871b1b);
     color: white;
 }
 
@@ -143,7 +143,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
     color: white;
 }
 
-.quote p {
+.quote p {        /* Цитата */
     text-align: right;
     margin-right: 4rem;
 }
