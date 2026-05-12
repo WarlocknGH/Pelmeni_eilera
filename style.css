@@ -122,10 +122,6 @@ table {
     font-size: 1.3rem;
 }
 
-#sigma {
-    width: 100%;
-}
-
 .container {
     padding: 9rem 2rem 2rem 2rem;
 }
@@ -243,6 +239,10 @@ label {         /* Кликабельный текст */
     }
 
      iframe {
+        width: 100%;
+    }
+
+    #sigma {
         width: 100%;
     }
 
