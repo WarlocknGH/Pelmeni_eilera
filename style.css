@@ -73,7 +73,7 @@ table {
     margin: 1rem 0;
 }
 
-#sq_table table td {        /* Магический квадрат */
+#mag_sq td {        /* Магический квадрат */
     padding: 0.5rem;
     width: 16px;
     height: 16px;
