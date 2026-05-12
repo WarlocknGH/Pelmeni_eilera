@@ -52,6 +52,10 @@ section:hover, img:hover, iframe:hover {
     transform: scale(1.005);
 }
 
+img, iframe {        /* Скруглённые рамочки */
+    border-radius: 5px;
+}
+
 th {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -138,12 +142,12 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
     text-shadow: 0px 0px 3px black;
 }
 
-.quote {
+.quote {        /* Цитата */
     background-color: #346399;
     color: white;
 }
 
-.quote p {        /* Цитата */
+.quote p {
     text-align: right;
     margin-right: 4rem;
 }
@@ -157,6 +161,32 @@ iframe {
 .video_block {
     display: flex;
     justify-content: center;
+}
+
+.gif_block {
+    text-align: center;
+}
+
+.gif-place img {        /* Гифка */
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+.gif-place {
+    display: none;
+    margin-top: 15px;
+}
+
+#showgif:checked ~ .gif-place {         /* Показать гифку */
+    display: block;
+}
+
+label {         /* Кликабельный текст */
+    text-decoration: underline;
+    color: #0645ad;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 0;
 }
 
 @media (max-width: 768px) {        /* Адаптивный дизайн */
