@@ -185,4 +185,8 @@ iframe {
      iframe {
         width: 100%;
     }
+
+    .table_section th, .table_section td {
+        padding: 0.75rem;
+    }
 }
