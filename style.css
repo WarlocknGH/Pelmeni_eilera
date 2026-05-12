@@ -103,7 +103,6 @@ table {
 .blocks_to_row {
     display: flex;
     gap: 2rem;
-    align-items: stretch;
     flex-wrap: wrap;
 }
 
