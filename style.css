@@ -5,8 +5,13 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: preciosa, sans-serif;
     background-color: #eee;
+}
+
+@font-face {
+    font-family: 'preciosa';
+    src: url('fonts/Preciosa.ttf') format('truetype');
 }
 
 header {
