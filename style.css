@@ -48,7 +48,7 @@ nav a:hover {        /* Подсветка текста жёлтым при на
     text-decoration: underline;
 }
 
-section:hover, img:hover, iframe:hover {
+section:hover, img:hover, iframe:hover, #mag_sq:hover {        /* Увеличение */
     transform: scale(1.005);
 }
 
