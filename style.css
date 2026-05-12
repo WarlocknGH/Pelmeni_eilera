@@ -101,10 +101,10 @@ table {
     margin: 3rem 0rem;
 }
 
-
 #euler {
     width: 300px;
     hight: 440px;
+    max-width: 100%;
 }
 
 #intro {
