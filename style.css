@@ -85,11 +85,6 @@ table {
     border-collapse: collapse;
 }
 
-.table_section table {        /* Таблица с фактами */
-    width: 100%;
-    margin: 1rem 0;
-}
-
 #mag_sq td {        /* Магический квадрат */
     padding: 0.5rem;
     width: 16px;
@@ -105,6 +100,11 @@ table {
 
 #k_bridges {
     margin: 3rem 0rem;
+}
+
+.table_section table {        /* Таблица с фактами */
+    width: 100%;
+    margin: 1rem 0;
 }
 
 .blocks_to_row {
