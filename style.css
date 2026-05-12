@@ -78,6 +78,7 @@ table {
     width: 16px;
     height: 16px;
     text-align: center;
+    text-shadow: 0px 0px 1px black;
 }
 
 #mag_sq {
@@ -134,6 +135,7 @@ h2 {        /* Заголовки в блоках информации i1 i2 i3 
 .i4 {
     background: black url(assets/images/Звёзды.jpg);
     color: white;
+    text-shadow: 0px 0px 3px black;
 }
 
 .quote {
