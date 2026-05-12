@@ -106,7 +106,7 @@ table {
     overflow-x: auto;
 }
 
-.table_section table {        /* Таблица с фактами */
+.table_section table {        /* Таблица с открытиями */
     width: 100%;
     margin: 1rem 0;
 }
