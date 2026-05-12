@@ -117,6 +117,12 @@ section {        /* Белые окошки */
     margin: 1rem 0;
 }
 
+.yellow_line {          /* Жёлтая полоска слева */
+    margin-bottom: 2rem;
+    border-left: 6px solid #ffb347;
+    padding-left: 2rem;
+}
+
 h3 {        /* Заголовки в блоках информации i1 i2 i3 i4 */
     margin-bottom: 0.5rem;
 }
@@ -146,7 +152,7 @@ h3 {        /* Заголовки в блоках информации i1 i2 i3 
 .quote {        /* Цитата */
     background-color: #346399;
     color: white;
-    margin-bottom: 2rem;
+    margin: 2rem 0rem 6rem;
 }
 
 .quote p {
