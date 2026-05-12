@@ -90,6 +90,10 @@ table {
     background: black url(assets/images/Магический-Квадрат.jpg);
 }
 
+#k_bridges {
+    margin: 3rem 0rem;
+}
+
 .blocks_to_row {
     display: flex;
     gap: 2rem;
