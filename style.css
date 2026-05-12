@@ -5,20 +5,18 @@
 }
 
 body {
-    font-family: 'Times New Roman Regular', sans-serif;
+    font-family: 'Rome', "Times New Roman", Times, sans-serif;
     background-color: #eee;
 }
 
 @font-face {
     font-family: 'preciosa';
     src: url('assets/fonts/Preciosa.ttf') format('truetype');
-    font-family: 'ryga';
-    src: url('assets/fonts/Ryga.otf') format('truetype');
-    font-family: 'weloghan';
-    src: url('assets/fonts/Weloghan.otf') format('truetype');
+    font-family: 'Rome';
+    src: url('assets/fonts/STRomeTrial-Medium.ttf') format('truetype');
 }
 
-@import url('https://ru.azfonts.net/fonts/times-new-roman-cyr/regular-228710');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 header {
     font-family: 'preciosa', sans-serif;
@@ -91,6 +89,7 @@ table {
     height: 16px;
     text-align: center;
     text-shadow: 0px 0px 1px black;
+    font-family: 'preciosa', 'Rome' , "Times New Roman", Times, sans-serif;
 }
 
 #mag_sq {
@@ -100,6 +99,16 @@ table {
 
 #k_bridges {
     margin: 3rem 0rem;
+}
+
+
+#euler {
+    width: 300px;
+    hight: 440px;
+}
+
+#intro {
+    font-family: 'Rome' , "Times New Roman", Times, sans-serif;
 }
 
 .table_section {
@@ -141,6 +150,7 @@ section {        /* Белые окошки */
     margin: 4rem 0rem 2rem;
     border-left: 6px solid #ffb347;
     padding-left: 2rem;
+    font-family: 'preciosa', 'Rome' , "Times New Roman", Times, sans-serif;
 }
 
 h3 {        /* Заголовки в блоках информации i1 i2 i3 i4 */
@@ -173,6 +183,7 @@ h3 {        /* Заголовки в блоках информации i1 i2 i3 
     background-color: #346399;
     color: white;
     margin: 2rem 0rem 4rem;
+    font-family: 'preciosa', 'Rome' , "Times New Roman", Times, sans-serif;
 }
 
 .quote p {
