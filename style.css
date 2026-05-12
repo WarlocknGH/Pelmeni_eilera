@@ -12,6 +12,9 @@ body {
 @font-face {
     font-family: 'preciosa';
     src: url('assets/fonts/Preciosa.ttf') format('truetype');
+}
+
+@font-face {
     font-family: 'Rome';
     src: url('assets/fonts/STRomeTrial-Medium.ttf') format('truetype');
 }
