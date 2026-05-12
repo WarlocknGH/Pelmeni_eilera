@@ -78,6 +78,9 @@ table {
     width: 16px;
     height: 16px;
     text-align: center;
+}
+
+#mag_sq {
     color: white;
     background: black url(assets/images/Магический-Квадрат.jpg);
 }
