@@ -107,7 +107,7 @@ table {
 }
 
 .container {
-    padding: 7rem 2rem 2rem 2rem;
+    padding: 9rem 2rem 2rem 2rem;
 }
 
 section {        /* Белые окошки */
@@ -118,7 +118,7 @@ section {        /* Белые окошки */
 }
 
 .yellow_line {          /* Жёлтая полоска слева */
-    margin-bottom: 2rem;
+    margin: 2rem 0rem;
     border-left: 6px solid #ffb347;
     padding-left: 2rem;
 }
@@ -152,7 +152,7 @@ h3 {        /* Заголовки в блоках информации i1 i2 i3 
 .quote {        /* Цитата */
     background-color: #346399;
     color: white;
-    margin: 2rem 0rem 6rem;
+    margin: 2rem 0rem 4rem;
 }
 
 .quote p {
