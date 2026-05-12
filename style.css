@@ -102,6 +102,10 @@ table {
     margin: 3rem 0rem;
 }
 
+.table_section {
+    overflow-x: auto;
+}
+
 .table_section table {        /* Таблица с фактами */
     width: 100%;
     margin: 1rem 0;
