@@ -10,7 +10,7 @@
     
     <body>
                     <!-- Телепорт в начало страницы (навигация) -->
-        <div id="top"></div>
+        <div id="tp_top"></div>
         
                     <!-- Фиксированная шапка -->
         <header>
@@ -20,10 +20,10 @@
             
             <nav>
                 <ul>
-                    <li> <a href="#top">Наверх</a> </li>
-                    <li> <a href="#sq_table">Магический квадрат</a> </li>
-                    <li> <a href="#disc">Достижения</a> </li>
-                    <li> <a href="#sources">Источники</a> </li>
+                    <li> <a href="#tp_top">Наверх</a> </li>
+                    <li> <a href="#tp_sq_table">Магический квадрат</a> </li>
+                    <li> <a href="#tp_disc">Достижения</a> </li>
+                    <li> <a href="#tp_sources">Источники</a> </li>
                 </ul>
             </nav>
         </header>
@@ -91,7 +91,7 @@
                 <iframe src="https://rutube.ru/play/embed/0e99a27dce3455c94628c81f3c180e5d/" allowfullscreen> Видео про Эйлера </iframe>
             </div>
 
-            <h1 class="yellow_line">ЭТО ИНТЕРЕСНО</h1>
+            <h1 id="tp_sq_table" class="yellow_line">ЭТО ИНТЕРЕСНО</h1>
 
                         <!-- Магический квадрат с текстом -->
             <div class="blocks_to_row">  
@@ -121,10 +121,10 @@
                 Среди прочего Эйлер занимался теорией графов. Одна из знаменитых задач, рассмотренная им: <a href="https://rutube.ru/video/8096d80621cecfce7cf5776ad8ad9b78/?r=wd"> Кёнигсбергские мосты </a>
             </section>
 
-            <h1 class="yellow_line">ВАЖНЕЙШИЕ ОТКРЫТИЯ</h1>
+            <h1 id="tp_disc" class="yellow_line">ВАЖНЕЙШИЕ ОТКРЫТИЯ</h1>
 
                         <!-- Таблица -->
-            <section id="disc" class="table_section">
+            <section class="table_section">
                 <table> 
                     <thead>
                         <tr><th> Достижение </th> <th> Год </th> <th> Описание </th></tr>
@@ -149,7 +149,7 @@
                 </div>
             </div>
         
-            <div id="sources" class="source_list">
+            <div id="tp_sources" class="source_list">
                 <h4> Список источников: </h4>
                 <ol>
                     <li> <a href="https://biographe.ru/uchenie/leonard-eiler"> Биография Леонарда Эйлера </a> </li>
