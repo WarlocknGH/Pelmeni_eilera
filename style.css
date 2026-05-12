@@ -80,7 +80,7 @@ table {
     text-align: center;
 }
 
-#mag_sq table{
+#mag_sq {
     color: white;
     background: black url(assets/images/Магический-Квадрат.jpg);
 }
