@@ -5,16 +5,23 @@
 }
 
 body {
-    font-family: 'preciosa', sans-serif;
+    font-family: 'Times New Roman Regular', sans-serif;
     background-color: #eee;
 }
 
 @font-face {
     font-family: 'preciosa';
     src: url('assets/fonts/Preciosa.ttf') format('truetype');
+    font-family: 'ryga';
+    src: url('assets/fonts/Ryga.otf') format('truetype');
+    font-family: 'weloghan';
+    src: url('assets/fonts/Weloghan.otf') format('truetype');
 }
 
+@import url('https://ru.azfonts.net/fonts/times-new-roman-cyr/regular-228710');
+
 header {
+    font-family: 'preciosa', sans-serif;
     z-index: 1000;
     position: fixed;
     top: 0;
@@ -72,6 +79,10 @@ td {
     border: 1px solid #ddd;
     padding: 2rem;
     text-align: left;
+}
+
+#sigma {
+    width: 100%;
 }
 
 table {
