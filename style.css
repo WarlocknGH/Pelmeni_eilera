@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Rome', "Times New Roman", Times, sans-serif;
     background-color: #eee;
